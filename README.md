@@ -10,7 +10,6 @@ Une application de gestion de tâches simple et efficace pour organiser votre qu
 - [Fonctionnalités](#fonctionnalités)
 - [Structure du projet](#structure-du-projet)
 - [Captures d'écran](#captures-décran)
-- [Technologies](#technologies)
 
 ## Aperçu
 
@@ -82,10 +81,3 @@ ToDo/
 ### Formulaire de modification
 
 ![Formulaire](./public/UpdateTask.png)
-
-## Technologies
-
-- **React** - Bibliothèque UI
-- **TypeScript** - Typage statique
-- **Vite** - Outil de build
-- **CSS** - Stylisation
