@@ -1,0 +1,127 @@
+:root {
+  --bg-primary: #2d2d30;
+  --bg-secondary: #313244;
+  --border-color: #45475a;
+  --text-primary: #cdd6f4;
+  --text-muted: #6c7086;
+  --accent: #89b4fa;
+  background-color: var(--bg-primary);
+}
+
+#app {
+  background-color: var(--bg-primary);
+  min-height: 100vh;
+}
+
+h1 {
+  color: var(--text-primary);
+  text-align: center;
+  padding-top: 5rem;
+}
+
+/* =========== CreateTask =========== */
+
+.submitBtn {
+  display: flex;
+  margin: auto;
+  background-color: var(--border-color);
+  border-color: var(--border-color);
+  &:hover,
+  &:focus {
+    background-color: var(--border-color);
+  }
+}
+
+/* =========== Form =========== */
+.form {
+  color: var(--text-primary);
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-group {
+  padding: 5px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 4.5rem;
+  padding-top: 5px;
+}
+
+/* =========== List =========== */
+
+.filters {
+  display: flex;
+  gap: 1rem;
+  max-width: 70rem;
+  margin: 1rem auto;
+  align-items: flex-end;
+}
+
+.filters label {
+  color: var(--text-primary);
+}
+
+.filters select,
+.filters input {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-color: var(--border-color);
+}
+
+.filters input:focus {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+}
+
+.reset-btn {
+  color: var(--text-muted);
+}
+
+.table {
+  max-width: 70rem;
+  margin: auto;
+}
+
+.table-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70rem;
+  margin: 1rem auto;
+}
+
+.btn {
+  color: var(--accent);
+
+  &:hover {
+    color: var(--accent);
+  }
+}
+
+.page-link {
+  background-color: #212529;
+  border-color: var(--border-color);
+  color: var(--text-primary) !important;
+  box-shadow: none !important;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: var(--border-color);
+    color: var(--accent);
+    border-color: var(--accent);
+  }
+
+  .active & {
+    background-color: var(--accent);
+    border-color: var(--accent);
+    color: #1e1e2e !important;
+  }
+}
+
+.page-item.disabled .page-link {
+  background-color: transparent;
+  opacity: 0.5;
+}
