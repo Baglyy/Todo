@@ -71,8 +71,6 @@ ToDo/
 
 ## Captures d'écran
 
-_À venir : captures d'écran de l'application_
-
 ### Page principale
 
 ![Page principale](./public/Home.png)
