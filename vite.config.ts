@@ -6,5 +6,10 @@ export default defineConfig({
   server: {
     host: true
   },
+  preview: {
+    allowedHosts: [
+      'todo-lite.fly.dev' 
+    ]
+  },
   plugins: [vue()],
 })
